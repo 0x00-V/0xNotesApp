@@ -1,3 +1,6 @@
+db/
+certs/
+node_modules/
 # Logs
 logs
 *.log
