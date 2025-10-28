@@ -10,5 +10,6 @@ Once you've connected to the database, add a user by typing `INSERT INTO users (
 
 ### Application Setup
 1 - `javac Main.java`
+
 2 - `java Main`
 Ensure server.js is running so you can reach the API endpoints.
