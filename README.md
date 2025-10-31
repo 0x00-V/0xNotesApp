@@ -1,5 +1,5 @@
 # 0xNotesApp
-*THe actual notes list is not functional and I'm yet to implement. If you relog you will get OOB (Out of Bounds) if you delete all elements
+*The actual notes list is not functional and I'm yet to implement. If you relog you will get OOB (Out of Bounds) if you delete all elements
 ### Backend Setup `(/backend)`
 1 - `npm install`
 
