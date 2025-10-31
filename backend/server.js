@@ -45,7 +45,7 @@ app.post("/api/login", async (req, res) => {
       return res.status(401).json({success: false, message: "Invalid Credentials"});
     }
       const session = generateSessionId();
-      await client.query("INSERT INTO sessions (session_id, user_id, expires_at) VALUES ($1, $2, NOW() + interval '1 hour')", [session, query_1.rows[0].id]);
+      await client.query("INSERT INTO sessions (session, user_id, expires_at) VALUES ($1, $2, NOW() + interval '1 hour')", [session, query_1.rows[0].id]);
       res.cookie("session", session, { httpOnly: false, secure: false,sameSite: "Strict", maxAge: 3600 * 1000,});
       res.json({succes: true, message: "Logged In"});
     }catch(error){
