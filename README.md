@@ -1,4 +1,6 @@
 # 0xNotesApp
+***I'm not sure if I finish this project, as I'm currently working on something larger and more useful. I will link it here if I do decide on abandoning this.***
+
 *The actual notes list is not functional and I'm yet to implement. If you relog you will get OOB (Out of Bounds) if you delete all elements
 ### Backend Setup `(/backend)`
 1 - `npm install`
